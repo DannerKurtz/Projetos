@@ -1,0 +1,166 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* Cabeçalho */
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #cd853f;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+/* Conteúdo da Pag */
+.conteudo{
+    flex: 0 1 auto;
+    height: 80%;
+}
+#body{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+}
+#body h1 {
+	color: #fff;
+	display: inline;
+	font-family: poller_oneregular;
+	font-size: 35px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body h1 span {
+	background: #aa6a2c;
+	display: inline-block;
+	padding: 15px 28px 12px;
+    border-radius: 15px;
+}
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+    border-radius: 15px;
+}
+#body > div img {
+	border: 2px solid #cd853e;
+	margin: 24px 0 0;
+	padding: 0;
+}
+#body div ul{
+    margin: 0;
+    padding: 0;
+    width: 940px;
+}
+#body div ul li{
+    border: 2px solid #cd853e;
+    display: block;
+    list-style: none;
+    margin: 0 0 13px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 10px;
+}
+#body div ul li .figure{
+    border-right: 2px solid #cd853e;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 376px;
+}
+#body div ul li img{
+    border: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
+#body div ul li div p{
+    padding: 10px;
+    height: 19px;
+}
+#body div li div a.more {
+    background: #aa6a2c;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 8px 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+.inputBox {
+    position: relative;
+    top: -1px;
+    left: 1px;
+}
+h3 {
+    background: #aa6a2c;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 15px;
+    color: white;
+}
+.text{
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+
+/* Rodapé */
+.rodape {
+    flex-shrink: 0;
+}
+
+.footer {
+    font-size: 12px;
+    width: 100%;
+    background: #cd853f;
+    padding: 10px;
+    overflow: hidden;
+    margin: auto;
+    color: white;
+}
+
+.div-footer {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
